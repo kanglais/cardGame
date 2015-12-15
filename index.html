@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>Card Game</title>
+</head>
+<body>
+	<div class="container-fluid text-center">
+		<header>
+			<h1>Three Card Monte</h1>
+
+			<h3>Find the Suicide King</h3>
+		</header>
+		<br>
+		<div class="row">
+			<h4>Click on the King of Hearts to get started.</h4>
+		</div>
+		<div id="shuffle" class="cards row">
+			<div class="col-md-4">
+				<a class="front" href="#">
+					<img src="images/eight.png">					
+				</a>
+				<a class="back hidden" href="#">
+					<img src="images/back.jpg">					
+				</a>
+			</div>
+			<div class="col-md-4">
+				<a class="front king" href="#">
+					<img src="images/king.png">
+				</a>
+				<a class="back hidden winner" href="#">
+					<img src="images/back.jpg">					
+				</a>
+			</div>
+			<div class="col-md-4">
+				<a class="front" href="#">
+					<img src="images/ace.png">
+				</a>
+				<a class="back hidden" href="#">
+					<img src="images/back.jpg">					
+				</a>
+			</div>
+		</div>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script type="text/javascript" src="javascript/script.js"></script>
+</body>
+</html>

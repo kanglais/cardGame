@@ -1,0 +1,21 @@
+header {
+	text-align: center;
+}
+p {
+	text-align: center;
+}
+img {
+	height: 400px;
+	width: 275px;
+}
+.cards {
+	padding: 40px 0;
+	background-color: #228B22;
+}
+.king img {
+	border-radius: 10px;
+	border: 1px solid #000;
+}
+.back img {
+	border-radius: 10px;
+}
